@@ -5,7 +5,7 @@
 Banking::Banking(std::string file) : filename(file){}
 
 std::string Banking::getAccountHolder(){
-  return accountHolder;
+ 	return accountHolder;
 }
 
 Account Banking::getSavings(){
@@ -59,9 +59,9 @@ void Banking::showAccountInfo(){
 	std::cout << "--------------------------------------------\n";
 	std::cout << "Balance\t\t\t\tAccount Type\n";
 	std::cout << "--------------------------------------------\n";
-    std::cout << "$" << savings.getBalance() << "\t\t\t\t" << savings.getAccountType() << std::endl;
-    std::cout << "$" << checking.getBalance() << "\t\t\t\t" << checking.getAccountType() << std::endl;
-    double totalBalance = savings.getBalance() + checking.getBalance();
+    	std::cout << "$" << savings.getBalance() << "\t\t\t\t" << savings.getAccountType() << std::endl;
+    	std::cout << "$" << checking.getBalance() << "\t\t\t\t" << checking.getAccountType() << std::endl;
+    	double totalBalance = savings.getBalance() + checking.getBalance();
 	std::cout << "Total Balance: $" << totalBalance << std::endl;
 
 }
