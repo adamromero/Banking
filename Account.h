@@ -4,7 +4,7 @@
 #include <iostream>
 
 class Account {
-  private:
+	private:
 		std::string accountType;
 		double balance;
 	public:
@@ -14,7 +14,7 @@ class Account {
 		std::string getAccountType() const; 
 		double getBalance() const; 
 		void makeWithdraw(double withdraw);
-	    void makeDeposit(double deposit);
+	    	void makeDeposit(double deposit);
 		
 };
 
