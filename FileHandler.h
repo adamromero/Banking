@@ -6,7 +6,7 @@
 #include "Account.h"
 
 class FileHandler {
-  private:
+  	private:
 		std::ifstream *inputFile;
 		std::ofstream *outputFile;
 		const char *filename;
