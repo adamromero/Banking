@@ -5,7 +5,7 @@
 #include "FileHandler.h"
 
 class Banking {
-  private:
+  	private:
 		std::string accountHolder;
 		Account savings;
 		Account checking;
