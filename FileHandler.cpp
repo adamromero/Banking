@@ -2,7 +2,7 @@
 #include "Banking.h"
 
 FileHandler::FileHandler(std::string name){
-  filename = name.c_str();
+  	filename = name.c_str();
 	inputFile = new std::ifstream(filename);
 	outputFile = NULL;
 }
