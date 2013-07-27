@@ -5,7 +5,7 @@
 #include "FileHandler.h"
 
 class Banking {
-  	private:
+	private:
 		std::string accountHolder;
 		Account savings;
 		Account checking;
@@ -14,9 +14,6 @@ class Banking {
 	public:
 		Banking(std::string file);
 		void setBankingFields(std::string name, Account save, Account check);
-		std::string getAccountHolder();
-		Account getSavings();
-		Account getChecking();
 		bool manageAccount();
 		void chooseAccount();
 		void savingsTransaction();
