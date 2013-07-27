@@ -1,7 +1,7 @@
 #include <iostream>
 
 void flushInputBuffer(){
-  const int MAX_CHARS = 50;
+  	const int MAX_CHARS = 50;
 	std::cin.clear();
 	std::cin.ignore(MAX_CHARS, '\n');
 }
