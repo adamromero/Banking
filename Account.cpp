@@ -1,11 +1,7 @@
 #include "Account.h"
-  
+	
 Account::Account(std::string strType, double dBalance) 
 	: accountType(strType), balance(dBalance){}
-	
-void Account::setBalance(double dBalance){ 
-	balance = dBalance;
-}
 
 std::string Account::getAccountType() const { 
 	return accountType;
