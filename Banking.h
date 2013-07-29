@@ -11,15 +11,14 @@ class Banking {
 		Account checking;
 		std::string filename;
 		bool isDeposit;
-	public:
-		Banking(std::string file);
 		void setBankingFields(std::string name, Account save, Account check);
 		bool manageAccount();
 		void chooseAccount();
 		void savingsTransaction();
 		void checkingTransaction();
 		void showAccountInfo();
-		void writeToFile();
+	public:
+		Banking(std::string file);
 		void run();
 };
 
