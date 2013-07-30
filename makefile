@@ -1,4 +1,4 @@
-BankingDriver: BankingDriver.o Account.o FileHandler.o Banking.o Functions.o
+all: BankingDriver.o Account.o FileHandler.o Banking.o Functions.o
 	g++ BankingDriver.o Account.o FileHandler.o Functions.o Banking.o -o bank
 
 BankingDriver.o: BankingDriver.cpp
